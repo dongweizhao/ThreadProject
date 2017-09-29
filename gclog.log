@@ -1,0 +1,15 @@
+2017-09-07T09:35:07.223-0800: 0.150: Total time for which application threads were stopped: 0.0001510 seconds
+2017-09-07T09:35:07.310-0800: 0.237: [GC2017-09-07T09:35:07.311-0800: 0.238: [SoftReference, 0 refs, 0.0000230 secs]2017-09-07T09:35:07.311-0800: 0.238: [WeakReference, 40 refs, 0.0000110 secs]2017-09-07T09:35:07.311-0800: 0.238: [FinalReference, 428 refs, 0.0003280 secs]2017-09-07T09:35:07.312-0800: 0.239: [PhantomReference, 0 refs, 0.0000060 secs]2017-09-07T09:35:07.312-0800: 0.239: [JNI Weak Reference, 0.0000060 secs] [PSYoungGen: 7000K->992K(9216K)] 15192K->9407K(19456K), 0.0019900 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2017-09-07T09:35:07.312-0800: 0.239: Total time for which application threads were stopped: 0.0021150 seconds
+2017-09-07T09:35:07.313-0800: 0.240: [GC2017-09-07T09:35:07.314-0800: 0.241: [SoftReference, 0 refs, 0.0000430 secs]2017-09-07T09:35:07.314-0800: 0.241: [WeakReference, 33 refs, 0.0000160 secs]2017-09-07T09:35:07.314-0800: 0.241: [FinalReference, 72 refs, 0.0000190 secs]2017-09-07T09:35:07.314-0800: 0.241: [PhantomReference, 0 refs, 0.0000060 secs]2017-09-07T09:35:07.315-0800: 0.241: [JNI Weak Reference, 0.0000060 secs]-- [PSYoungGen: 7534K->7534K(9216K)] 15950K->15950K(19456K), 0.0026330 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2017-09-07T09:35:07.316-0800: 0.243: [Full GC2017-09-07T09:35:07.317-0800: 0.244: [SoftReference, 0 refs, 0.0000240 secs]2017-09-07T09:35:07.317-0800: 0.244: [WeakReference, 13 refs, 0.0000070 secs]2017-09-07T09:35:07.317-0800: 0.244: [FinalReference, 70 refs, 0.0000070 secs]2017-09-07T09:35:07.317-0800: 0.244: [PhantomReference, 0 refs, 0.0000030 secs]2017-09-07T09:35:07.317-0800: 0.244: [JNI Weak Reference, 0.0000030 secs] [PSYoungGen: 7534K->2720K(9216K)] [ParOldGen: 8415K->8244K(10240K)] 15950K->10964K(19456K) [PSPermGen: 4742K->4740K(21504K)], 0.0153510 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+2017-09-07T09:35:07.331-0800: 0.258: Total time for which application threads were stopped: 0.0181350 seconds
+Heap
+ PSYoungGen      total 9216K, used 6915K [0x00000007ff600000, 0x0000000800000000, 0x0000000800000000)
+  eden space 8192K, 84% used [0x00000007ff600000,0x00000007ffcc0e00,0x00000007ffe00000)
+  from space 1024K, 0% used [0x00000007ffe00000,0x00000007ffe00000,0x00000007fff00000)
+  to   space 1024K, 0% used [0x00000007fff00000,0x00000007fff00000,0x0000000800000000)
+ ParOldGen       total 10240K, used 8244K [0x00000007fec00000, 0x00000007ff600000, 0x00000007ff600000)
+  object space 10240K, 80% used [0x00000007fec00000,0x00000007ff40d2d8,0x00000007ff600000)
+ PSPermGen       total 21504K, used 4751K [0x00000007f9a00000, 0x00000007faf00000, 0x00000007fec00000)
+  object space 21504K, 22% used [0x00000007f9a00000,0x00000007f9ea3cf0,0x00000007faf00000)
